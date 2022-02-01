@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#primo{
+  height: 100vh;
+  background-color: red;
+  position: relative;
+}
+
+#secondo{
+  height: 100vh;
+  background-color: green;
+  position: relative;
+}
+
+#terzo{
+  height: 100vh;
+  background-color: yellow;
+  position: relative;
+}
+
+.div-img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 20%;
+}
+
+.div-title{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+}
